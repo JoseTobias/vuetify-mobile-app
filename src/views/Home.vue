@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <TopToolbar msg="Welcome to Your Vue.js App"/>
+    <TopToolbar/>
   </div>
 </template>
 
