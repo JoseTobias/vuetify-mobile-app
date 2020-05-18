@@ -1,9 +1,10 @@
 <template>
   <v-app>
+    <TopToolbar/>
     <v-content>
-      <TopToolbar/>
-      <BottomNav/>
+      <router-view></router-view>
     </v-content>
+    <BottomNav/>
   </v-app>
 </template>
 
